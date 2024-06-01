@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 7095766760163824823}
   - component: {fileID: 7275623486106528958}
   - component: {fileID: 3721836738861743999}
-  - component: {fileID: 4793690445592417626}
-  - component: {fileID: 819463031743199924}
+  - component: {fileID: 8347398753091575347}
   m_Layer: 0
   m_Name: ML3D_Rocks_01_03
   m_TagString: Untagged
@@ -85,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4793690445592417626
-MeshCollider:
+--- !u!136 &8347398753091575347
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -103,28 +102,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5371554590091021197, guid: 3ddc61472d3f447bfb36a22d4488debd, type: 3}
---- !u!65 &819463031743199924
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3462093792325843721}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.952146, y: 1.2766733, z: 2.2348886}
+  serializedVersion: 2
+  m_Radius: 1.1174443
+  m_Height: 1.2766733
+  m_Direction: 1
   m_Center: {x: -0.10581088, y: -0.1922625, z: 0.14979884}
