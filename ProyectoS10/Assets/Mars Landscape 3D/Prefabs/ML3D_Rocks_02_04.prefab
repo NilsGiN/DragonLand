@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7537682207299493718}
   - component: {fileID: 7371030959895939452}
   - component: {fileID: 3051117425920447698}
-  - component: {fileID: 8285223944787731713}
   - component: {fileID: 4293536956430917431}
   m_Layer: 0
   m_Name: ML3D_Rocks_02_04
@@ -85,28 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8285223944787731713
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7709263511906827119}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3886814333732476635, guid: 58a5ab3dee2df4b7ca1055a0d6b8fe60, type: 3}
 --- !u!65 &4293536956430917431
 BoxCollider:
   m_ObjectHideFlags: 0
